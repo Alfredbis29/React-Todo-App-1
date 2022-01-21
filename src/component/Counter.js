@@ -4,11 +4,12 @@ const Counter = () => {
             <h1>Hello there and welcome</h1>
             <small>This is just a notice</small>
             <h1 className="text-3xl font-bold underline">
-                 Hello world!
+      Hello world!
     </h1>
-        <button>+</button>
-        <span>0</span>
-        <button>-</button>
+            <form>
+                <input type="text" placeholder="Enter your mail"/>
+                <input type="text" placeholder="Enter your mail"/>
+            </form>
         </div>
     )
 }
