@@ -15,10 +15,10 @@ const Counter = () => {
       <form action="">
         <div class="box-form">
           <textarea
-            nameName=""
-            cols="60"
+            className="border-solid border-gray border-2 rounded mt-5 ml-5"
+            cols="80"
             rows="5"
-            placeholder="task name"
+            placeholder="e.g by gift tomorrow at 6pm"
           ></textarea>
           {/* <textarea
             nameName="border-none"
@@ -28,8 +28,8 @@ const Counter = () => {
           ></textarea> */}
           <div class="action-btn">
             <div class="right">
-              <button>Add task</button>
-              <button></button>
+              <button className="ml-5">Add task</button>
+              <button className="ml-4">Cancel</button>
             </div>
             <div class="lefyt">
               <span></span>
