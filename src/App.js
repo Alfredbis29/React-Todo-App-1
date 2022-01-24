@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import './component/Counter';
-import './App.css';
-import Counter from './component/Counter';
+import "./component/Counter";
+import "./App.css";
+import Counter from "./component/Counter";
 
 function App() {
   return (
