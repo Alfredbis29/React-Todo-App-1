@@ -40,9 +40,7 @@ const Counter = () => {
                 <span>
                   <ion-icon name="subway-outline"></ion-icon>
                 </span>
-                <span>
-                  <ion-icon name="subway-outline"></ion-icon>
-                </span>
+                <span></span>
                 <span>
                   <ion-icon name="subway-outline"></ion-icon>
                 </span>
