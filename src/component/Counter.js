@@ -31,15 +31,29 @@ const Counter = () => {
                 className="w-full focus:outline-none"
               ></textarea>
             </div>
-            <div className="flex justify-content:space-between">
-              <div>
-                <button className="mt-5 bg-white text-[#D24C42] rounded border-gray border-2 h-18 w-18 ml-2">
-                  Yesterday
-                </button>
-                <button className="mt-4 bg-[#f5f5f4] text-[#646464] border-gray border-2 h-18 w-14 rounded ml-2">
+            <div className="flex justify-content:space-between inline">
+              <div className="">
+                <button className="mt-5 bg-white text-[#0E892F] rounded border-gray border-2 h-18 w-18 ml-2 inline-flex">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6 stroke-red-400"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
+                  </svg>
+                  Yesterday
+                </button>
+                <button className="mt-5 bg-white text-[#C1C1C1] rounded border-gray border-2 h-18 w-18 ml-2 inline-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 stroke-[#3D7FE3] inline text-center"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
