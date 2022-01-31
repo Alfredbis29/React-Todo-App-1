@@ -16,23 +16,27 @@ const Counter = () => {
         {
           <div className="w-50 h-50 p-5 rounded border-2 border-solid boder-gray m-10">
             <div>
-              <input
+              {/* <input
                 placeholder="enter text"
                 className="w-full focus:outline-none"
-              />
+              /> */}
+              <textarea
+                placeholder="enter text"
+                className="w-full focus:outline-none"
+              ></textarea>
             </div>
             <div>
-              <input
-                placeholder="start your text"
+              <textarea
+                placeholder="enter text"
                 className="w-full focus:outline-none"
-              />
+              ></textarea>
             </div>
             <div className="flex justify-content:space-between">
               <div>
-                <button className="mt-5 bg-white text-[#16a34a] rounded border-gray border-2 h-18 w-14">
+                <button className="mt-5 bg-white text-[#16a34a] rounded border-gray border-2 h-18 w-14 ml-2">
                   Today
                 </button>
-                <button className="mt-4 bg-[#f5f5f4] text-black border-gray border-2 h-18 w-14 rounded">
+                <button className="mt-4 bg-[#f5f5f4] text-black border-gray border-2 h-18 w-14 rounded ml-2">
                   Inbox
                 </button>
               </div>
